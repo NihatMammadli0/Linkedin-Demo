@@ -1,5 +1,6 @@
 body{
   margin:0;
+  background-color: #f4f2ee;;
 }
 
 .navbar {
@@ -7,9 +8,9 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  height: 49px;
+  height: 52px;
   
-  /* background-color: lightbluse; */
+  background-color: white;
   display: flex;
 }
 .left-navbar {
@@ -52,4 +53,21 @@ body{
   width: 480px;
   justify-content: space-between; 
   
+}
+.about-me-info {
+  background-color: white;
+}
+.left-aboutme-info {
+  display: flex;
+  flex-direction: column;
+}
+.profile-photo {
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 130px;
+  width: 180px;
+  border-radius: 180px;
+}
+.left-aboutme-info {
+  margin-left: 115px;
 }
