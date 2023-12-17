@@ -79,11 +79,106 @@ body{
   
 }
 
-/* .circle-image{
+.connect-button {
+  width: 100px;  
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+  border: none;
+  color: white;
+  background-color:#0a66c2;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+.connect-button:hover {
+  background-color: #003366;
+}
+.message-button {
+  width: 100px;  
+  height: 30px;
+  border-radius: 20px;
+  border: solid;
+  border-width: 1px;
+  margin-right: 5px;
+  background-color: white;
+  font-size: 15px;
+  color: #0a66c2;
+  border-color: #0a66c2;
+  cursor: pointer;
+  font-weight: bold;
+  transition: ease 0.2s;
+}
+.message-button:hover {
+  border-width: 2px;
+  background-color: #e6f2ff;
+}
+.more-button {
+  background-color: white;
+  width: 100px;  
+  height: 30px;
+  border-radius: 15px;
+  border: solid;
+  border-width: 1px;
+  width: 80px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+.more-button:hover {
+  background-color: rgb(230, 230, 230);
+  border-width: 2px;
+}
+.profile-name {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.study-place {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.city-region {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgb(131, 121, 121);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right-aboutme-info {
+  margin-top: 40px; 
+  margin-left: 100px; 
+  font-weight: bold; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.suggestions {
+  background-color: white;
+  
+  width: 270px;
+  height: 400px;
+  margin-left: 920px;
+}
+.suggestion-info-part {
+  margin-left: 8px;
+}
+.first-suggestion {
+  display: flex;
+}
+.suggestion-photo-part-Ilkay {
   width: 50px;
   height: 50px;
-  background-image: url(icons/man.jpeg);
-  background-size: cover;
-  display: block;
-  border-radius:50%;
-}  */
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.suggestion-info-part {
+  display: flex;
+  flex-direction: column;
+}
