@@ -1,5 +1,5 @@
 body{
-  margin:0;
+  padding-bottom:800px;
   background-color: #f4f2ee;;
 }
 
@@ -181,4 +181,37 @@ body{
 .suggestion-info-part {
   display: flex;
   flex-direction: column;
+}
+.do-you-know-part {
+  background-color: white;
+  position: fixed;
+  top: 52px;
+  height: 47px;
+  left: 0;
+  right: 0;
+  visibility:visible;
+  display: flex;
+}
+.suggestion-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding-top: 7px;
+  margin-left: 80px;
+}
+.about-suggestion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  padding-top: 5px;
+  
+}
+.do-you-know-left-inner {
+  display: flex;
+}
+.do-you-know-left {
+  margin-right: 600px;
+}
+.do-you-know-right {
+  margin-top: 7px;
 }
