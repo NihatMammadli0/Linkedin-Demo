@@ -5,9 +5,9 @@ window.addEventListener('scroll', (event) => {
   // console.log(doYouKnowPart);  
 
   // Adjust styles based on the scroll position
-  if (scrollPosition > 400) {
+  if (scrollPosition < 400) {
     doYouKnowPart.style.visibility = 'hidden';
-  } else if(scrollPosition < 400) {
+  } else if(scrollPosition > 400) {
     doYouKnowPart.style.visibility = 'visible';
     // doYouKnowPart.style.transition = 'visibility ease 1s';
   }

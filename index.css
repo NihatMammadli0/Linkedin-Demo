@@ -191,6 +191,18 @@ body{
   right: 0;
   visibility:visible;
   display: flex;
+  animation: backwards;
+  animation: colorChange 3s ease infinite;
+  -webkit-animation: colorChange 3s ease infinite; /* Safari and Chrome */
+  -moz-animation: colorChange 3s ease infinite;    /* Firefox */
+}
+@keyframes colorChange {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
 }
 .suggestion-photo {
   width: 35px;
