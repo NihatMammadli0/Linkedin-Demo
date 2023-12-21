@@ -191,19 +191,13 @@ body{
   right: 0;
   visibility:visible;
   display: flex;
-  animation: backwards;
-  animation: colorChange 3s ease infinite;
-  -webkit-animation: colorChange 3s ease infinite; /* Safari and Chrome */
-  -moz-animation: colorChange 3s ease infinite;    /* Firefox */
+  animation: mymove 2s;
 }
-@keyframes colorChange {
-  0% {
-    background-color: blue;
-  }
-  100% {
-    background-color: red;
-  }
+@keyframes mymove {
+  from {top: 37px;}
+  to {top: 60px;}
 }
+
 .suggestion-photo {
   width: 35px;
   height: 35px;
