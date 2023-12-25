@@ -10,6 +10,9 @@ window.addEventListener('scroll', (event) => {
   } else if(scrollPosition > 400) {
     doYouKnowPart.style.visibility = 'visible';
     // doYouKnowPart.style.transition = 'visibility ease 1s';
+  } else {
+    doYouKnowPart.style.visibility = 'hidden';
+    
   }
 });
 

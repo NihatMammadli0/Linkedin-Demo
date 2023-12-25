@@ -189,7 +189,7 @@ body{
   height: 47px;
   left: 0;
   right: 0;
-  visibility:visible;
+  visibility:hidden;
   display: flex;
   animation: mymove 2s;
 }
