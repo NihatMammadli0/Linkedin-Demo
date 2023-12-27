@@ -60,10 +60,10 @@ body{
   background-color: white;
   margin-left: 100px;
   padding-bottom: 30px;
-  /* background-color: lightcoral; */
+  
 }
 .left-aboutme-info {
-  /* background-color: lightblue; */
+  
   margin-left: 40px;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,6 @@ body{
   height: 170px;
   width: 170px;
   border-radius: 50%;
-  /* position: relative; */
   
 }
 
@@ -193,10 +192,6 @@ body{
   display: flex;
   animation: mymove 2s;
 }
-/* @keyframes mymove {
-  from {top: 37px;}
-  to {top: 60px;}
-} */
 
 .suggestion-photo {
   width: 35px;
